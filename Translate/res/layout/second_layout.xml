@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="数字: "
+        />
+        <EditText
+            android:id="@+id/edittext_01" 
+            android:layout_height="wrap_content"
+            android:hint="input a num.                  "            
+            />
+        </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="翻译结果: "
+        />
+        <EditText
+            android:id="@+id/edittext_02" 
+            android:layout_height="wrap_content"
+            android:hint="translate result.              "          
+            />
+    </TableRow>
+
+    <TableRow>
+        <Button 
+            android:id="@+id/button_01"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="翻译"
+            android:maxLines="5"
+            />
+        
+        
+    </TableRow>
+</TableLayout>
